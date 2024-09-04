@@ -19,6 +19,7 @@
       font-size: medium;
     }
     input[type="submit"]{
+      margin: auto;
       background-color: yellow;
       color: black;
       padding: 12px 20px;
@@ -26,14 +27,21 @@
       border-width: 4px;
       border-radius: 10px;
       cursor: pointer;
-      float: right;
     }
     table{
+      margin-top: 20px;
       border-color: purple;
-      border-width: 4px;
-      border-radius: 8px;
+      border-collapse: collapse;
+      border-width: 3px;
+    }
+    td{
+      padding: 6px 13px;
+    }
+    th{
+      padding: 6px 13px;
     }
     .srlfifteen{
+      margin-right: 48px;
       background-color: gray;
       color: white;
       border-color: black;
@@ -48,13 +56,13 @@
     <h1>Menu Makanan</h1>
   </header>
   <input type="submit" value="Tambah">
-  <table border="2">
+  <table border="1">
     <tbody>
       <tr bgcolor="yellow">
-        <td><b>No</b></td>
-        <td><b>Makanan</b></td>
-        <td><b>Harga</b></td>
-        <td width="40"><b>Gambar</b></td>
+        <th><b>No</b></th>
+        <th><b>Makanan</b></th>
+        <th><b>Harga</b></th>
+        <th width="40"><b>Gambar</b></th>
       </tr>
       <tr>
           <td width="33" align="center">1</td>
